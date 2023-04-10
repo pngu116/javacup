@@ -1,6 +1,7 @@
 package pricecomparison;
 
 public class Account extends Client{
+    
     public void signUp() {
         
     }

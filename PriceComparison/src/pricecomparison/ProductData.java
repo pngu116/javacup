@@ -4,7 +4,9 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.util.ArrayList;
 
+//reads txt file
 public class ProductData extends Database{
+    //gets column of data from txt file and sends to DataStorage
     public static String[] getData(int col,String filePath,String delimiter){
         String data[];
         String currentLine;
