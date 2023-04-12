@@ -1,5 +1,5 @@
 package pricecomparison;
 
-public class Application extends PriceComparison{
-    
+public class Application extends PriceComparison {
+
 }

@@ -1,5 +1,5 @@
 package pricecomparison;
 
-public class Client extends PriceComparison{
-    
+public class Client extends PriceComparison {
+
 }

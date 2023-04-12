@@ -1,5 +1,5 @@
 package pricecomparison;
 
-public class Database extends PriceComparison{
-    
+public class Database extends PriceComparison {
+
 }
