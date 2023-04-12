@@ -1,23 +1,28 @@
 package pricecomparison;
 
-import java.util.Arrays;
-import java.util.List;
-//checks if user input is valid and creates newlist of products 
-public class DataFulfillment extends Application{
-    public boolean found = false;
+/**
+ * DataFulillment --- checks if user input is valid and creates a new list of
+ * products.
+ *
+ * @author Phil Nguyen
+ */
+public class DataFulfillment extends Application {
+
     DataStorage ds = new DataStorage();
-    int count;
-    int pos;
+    public boolean found = false;
+    private int count;
+    private int pos;
 
-    public String getRequest() {
-
-        return null;
-    }
-    //check if user input is in product list
+    /**
+     * Checks if user input is in the product list
+     *
+     * @param search A string containing user input
+     */
     public void checkValidity(String search) {
         String[] productNames = ds.getProductName();
         String[] productPrices = ds.getProductPrice();
         String[] productStore = ds.getProductStore();
+
         for (int i = 0; i < productNames.length; i++) {
             if (productNames[i].toLowerCase().contains(search.toLowerCase())) {
                 found = true;
@@ -25,13 +30,17 @@ public class DataFulfillment extends Application{
                 pos = i;
             }
         }
-
         if (found) {
             makeList(search);
         }
-
     }
-    //creates list of product the user requested
+
+    /**
+     * Creates list of product the user requested
+     *
+     * @param search A string from checkValidity() containing user input
+     * @return newList
+     */
     public String[][] makeList(String search) {
         String[] productNames = ds.getProductName();
         String[] productPrices = ds.getProductPrice();
