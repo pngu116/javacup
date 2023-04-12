@@ -1,21 +1,61 @@
 product,price,store
-egg,2.69,target
-egg,3.31,rouses
-egg,2.63,walmart
-egg,5.19,winndixie
-bread,1.39,target
-bread,2.08,rouses
-bread,1.38,walmart
-bread,2.79,winndixie
-milk,4.59,target
-milk,5.79,rouses    
-milk,3.57,walmart
-milk,5.29,winndixie
-banana,0.25,target
-banana,0.26,rouses
-banana,0.27,walmart
-banana,0.69,winndixie
-chicken,2.99,target 
-chicken,6.95,rouses
-chicken,2.97,walmart
-chicken,7.69,winndixie
+eggs,5.19,Winn-Dixie
+eggs,3.31,Rouses
+eggs,2.69,Target
+eggs,2.63,Walmart
+bread,2.79,Winn-Dixie
+bread,2.08,Rouses
+bread,1.39,Target
+bread,1.38,Walmart
+milk,5.79,Rouses  
+milk,5.29,Winn-Dixie
+milk,4.59,Target
+milk,3.57,Walmart
+bananas,0.69,Winn-Dixie
+bananas,0.27,Walmart
+bananas,0.26,Rouses
+bananas,0.25,Target
+chicken,7.69,Winn-Dixie
+chicken,6.95,Rouses
+chicken,2.99,Target 
+chicken,2.97,Walmart
+ground beef,7.53,Rouses
+ground beef,6.69,Target
+ground beef,6.49,Winn-Dixie
+ground beef,6.26,Walmart
+water,1.25,Winn-Dixie
+water,1.22,Walmart
+water,1.19,Target
+water,1.15,Rouses
+toilet paper,10.43,Rouses
+toilet paper,7.99,Winn-Dixie
+toilet paper,7.99,Target
+toilet paper,7.97,Walmart
+sprite,8.79,Target
+sprite,8.69,Rouses
+sprite,7.49,Target
+sprite,7.26,Walmart
+onion,2.79,Winn-Dixie
+onion,1.33,Rouses
+onion,1.04,Walmart
+onion,0.99,Target
+cheese,5.21,Rouses
+cheese,5.19,Winn-Dixie
+cheese,4.28,Walmart
+cheese,3.99,Target
+pineapple,4.99,Winn-Dixie
+pineapple,4.05,Rouses
+pineapple,1.99,Target
+pineapple,1.84,Walmart
+ham,6.59,Winn-Dixie
+ham,5.79,Rouses
+ham,4.89,Target
+ham,4.50,Walmart
+ketchup,2.39,Target
+ketchup,2.03,Rouses
+ketchup,1.89,Winn-Dixie
+ketchup,1.18,Walmart
+pasta,1.73,Rouses
+pasta,1.69,Winn-Dixie
+pasta,0.99,Target
+pasta,0.98,Walmart
