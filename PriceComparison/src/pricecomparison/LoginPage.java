@@ -20,15 +20,15 @@ import javax.swing.JTextField;
  */
 public class LoginPage implements ActionListener {
 
-    JFrame frame;
-    JButton loginButton;
-    JButton resetButton;
-    JTextField userField;
-    JPasswordField passwordField;
-    JLabel userLabel;
-    JLabel passwordLabel;
-    JLabel messageLabel;
-    JCheckBox showPassword;
+    private JFrame frame;
+    private JButton loginButton;
+    private JButton resetButton;
+    private JTextField userField;
+    private JPasswordField passwordField;
+    private JLabel userLabel;
+    private JLabel passwordLabel;
+    private JLabel messageLabel;
+    private JCheckBox showPassword;
 
     HashMap<String, String> loginInfo = new HashMap<String, String>();
 
